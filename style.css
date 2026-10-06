@@ -1,0 +1,64 @@
+body {
+    font-weight: 500;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-title {
+    color: #DCCEF2;
+}
+
+.link {
+    color: #A3DEFF
+}
+
+.interests-title {
+    color: #FFD1F5
+}
+
+.research-title {
+    color: #D1FFF5
+}
+
+.project-title {
+    color: #baf5e8
+}
+
+.button.is-info {
+    background-color: #A3DEFF;
+    border-color: #A3DEFF;
+    color: black;
+}
+
+.button.is-info:hover {
+    background-color: #B3E4FF;
+    border-color: #B3E4FF;
+    color: black;
+}
+
+.button.is-warning {
+    background-color: #FFD1F5;
+    border-color: #FFD1F5;
+    color: black;
+}
+
+.button.is-warning:hover {
+    background-color: #ffe8fa;
+    border-color: #ffe8fa;
+    color: black;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 2rem 1.5rem 2rem;
+}
+
+/* navbar */
+.navbar-burger span {
+    background-color: var(--bulma-info-bold);
+}
+
+.name {
+    font-family: "Charm", cursive;
+}
